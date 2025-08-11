@@ -1,4 +1,4 @@
-# Análisis: asistencia escolar (p07) en Los Ríos – ENEMDU 2024
+# Análisis: asistencia escolar en Los Ríos – ENEMDU 2024
 
 Este repositorio contiene el análisis en **Python** del archivo HTML `Determinantes_deserción_LosRíos (1).html`.  
 El objetivo del estudio es modelar la **probabilidad de que un menor de entre 5 y 17 años asista a clases** (variable `p07`) en la **provincia de Los Ríos**, usando datos de la Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU) 2024.  
