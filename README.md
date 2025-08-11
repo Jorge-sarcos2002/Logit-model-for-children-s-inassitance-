@@ -6,7 +6,7 @@ El enfoque es **cuantitativo y econométrico**, utilizando un **modelo logit** p
 
 ---
 
-## 📊 Datos y preparación
+##  Datos y preparación
 
 1. **Fuente:**  
    - Se empleó la base de datos ENEMDU 2024 (personas, anual), la cual contiene variables socioeconómicas, demográficas y laborales de los encuestados.  
@@ -37,7 +37,7 @@ El enfoque es **cuantitativo y econométrico**, utilizando un **modelo logit** p
 
 ---
 
-## 📌 Variables del modelo
+##  Variables del modelo
 
 - **Dependiente (`y`):**  
   `p07` – indica si el menor asiste a clases (1) o no (0).
@@ -55,7 +55,7 @@ Estas variables recogen factores demográficos, laborales y socioeconómicos que
 
 ---
 
-## ⚙️ Modelo estimado
+##  Modelo estimado
 
 - **Tipo de modelo:**  
   Se utilizó `statsmodels.Logit` con una constante, lo que significa que se estimó un modelo de regresión logística binaria.  
@@ -72,7 +72,7 @@ Estas variables recogen factores demográficos, laborales y socioeconómicos que
 
 ---
 
-## 📈 Efectos marginales
+##  Efectos marginales
 
 - **Interpretación:**  
   Los efectos marginales muestran el cambio promedio en la probabilidad de asistir a clases ante un cambio unitario en la variable explicativa, manteniendo las demás constantes.
@@ -84,7 +84,7 @@ Estas variables recogen factores demográficos, laborales y socioeconómicos que
 
 ---
 
-## 🧮 Evaluación del desempeño del modelo
+##  Evaluación del desempeño del modelo
 
 - **Curva ROC y AUC:**
   - El Área Bajo la Curva (AUC) es **0.7584**, lo que indica un buen poder de discriminación entre quienes asisten y quienes no.
@@ -100,7 +100,7 @@ Estas variables recogen factores demográficos, laborales y socioeconómicos que
 
 ---
 
-## 📊 Visualizaciones generadas
+##  Visualizaciones generadas
 
 1. **Curva ROC:**  
    Muestra la relación entre TPR (sensibilidad) y FPR (1 - especificidad) para distintos umbrales.
@@ -109,7 +109,7 @@ Estas variables recogen factores demográficos, laborales y socioeconómicos que
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - `pandas` y `numpy` para manipulación y limpieza de datos.
 - `statsmodels` para estimar el modelo logit y calcular efectos marginales.
